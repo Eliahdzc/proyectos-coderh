@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(236, 35, 69);
+}
+
+
+footer  {
+    background-image: url("../assets/cactus.jpg")
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-section {
+    padding: 20px;
+}
