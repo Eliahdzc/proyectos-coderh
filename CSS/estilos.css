@@ -1,14 +1,19 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Krub', sans-serif;
 }
 
 h1 {
    letter-spacing: 10px; text-align: center; font-weight: 3000px; font-size: 70px;
 }
 
+header {
+    contain: size 50%;
+
+}
+
 .logo {
-    background-image: url("../assets/Folklor.gif");
-    height: 450px;
+    background-image: url("../assets/folklor.gif");
+    height: 500px;
     background-position: center;
     background-size: cover;
 }
