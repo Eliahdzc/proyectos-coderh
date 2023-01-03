@@ -1,23 +1,78 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
 }
 
 h1 {
-    color: rgb(236, 35, 69);
+   letter-spacing: 10px; text-align: center; font-weight: 3000px; font-size: 70px;
 }
 
+.logo {
+    background-image: url("../assets/Folklor.gif");
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
 
-footer  {
-    background-image: url("../assets/cactus.jpg")
+.footer  {
+    background-image: url("../assets/cactus.png");
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    padding: 25px 25px;        
+}
+
+.bodycultura {
+   background-color: rgb(230, 188, 188);
+  }
+
+.bodygastronomia {
+    background-color: rgb(252, 248, 218);
+}
+
+.bodylugares {
+    background-color: rgb(186, 209, 223);
+}
+
+.menu-principal {
+    padding-left: 60%;
+    font-size: x-large;
+}
+
+.redes {
+    padding: 25px 25px;
+    padding-left: 67%;
+    font-size: x-large;
+}
+
+.navfooter {
+    text-align: right;
+    font-size: x-large;
+}
+
+a {
+    margin: 25px;
+}
+
+.titulo-pagina {
+    background-image: url(../assets/cactus.png);
+    background-position: center;
+    background-size: cover;
+}
+li a {
+    margin: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 li {
-    display: inline-block;
+    display: inline-block; 
 }
 
 a {
     text-decoration: none;
+    color: black; 
 }
 
 .main-section {
