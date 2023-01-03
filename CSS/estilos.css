@@ -1,5 +1,5 @@
-body {
-    font-family: 'Krub', sans-serif;
+.letrabody {
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -12,14 +12,14 @@ header {
 }
 
 .logo {
-    background-image: url("../assets/folklor.gif");
+    background-image: url("../assets/folklor3.gif");
     height: 500px;
     background-position: center;
     background-size: cover;
 }
 
 .footer  {
-    background-image: url("../assets/cactus.png");
+    background-image: url("../assets/cactus2.png");
     height: 450px;
     background-position: center;
     background-size: cover;
@@ -59,7 +59,7 @@ a {
 }
 
 .titulo-pagina {
-    background-image: url(../assets/cactus.png);
+    background-image: url(../assets/cactus2.png);
     background-position: center;
     background-size: cover;
 }
