@@ -1,5 +1,6 @@
 .letrabody {
     font-family: 'Raleway', sans-serif;
+    margin: 0px 0px;
 }
 
 h1 {
@@ -16,6 +17,15 @@ header {
     height: 500px;
     background-position: center;
     background-size: cover;
+}
+
+.main {
+    background-image: url(https://www.fodors.com/wp-content/uploads/2021/05/UltimateMexicoCity__HERO_shutterstock_1058054480.jpg);
+   height: 1200px;
+    background-position: center;
+    background-size: cover;
+    padding: 25px 25px;
+    margin: 0px 0px;
 }
 
 .footer  {
@@ -81,5 +91,5 @@ a {
 }
 
 .main-section {
-    padding: 20px;
+    padding: 0px;
 }
