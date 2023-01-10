@@ -19,7 +19,7 @@ header {
     background-size: cover;
 }
 
-.main {
+.main-index {
     background-image: url(https://www.fodors.com/wp-content/uploads/2021/05/UltimateMexicoCity__HERO_shutterstock_1058054480.jpg);
    height: 1200px;
     background-position: center;
@@ -30,7 +30,7 @@ header {
 
 .footer  {
     background-image: url("../assets/cactus2.png");
-    height: 450px;
+    height: 100px;
     background-position: center;
     background-size: cover;
     padding: 25px 25px;        
@@ -48,9 +48,59 @@ header {
     background-color: rgb(186, 209, 223);
 }
 
+.zonas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.zonas-2 {
+    border: 2px solid white;
+    height: 450px;
+    width: 400px;
+    margin: 50px;
+    background-image: url(../assets/Chichenitza.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pueblos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.pueblos-2 {
+    border: 2px solid white;
+    height: 450px;
+    width: 400px;
+    margin: 50px;
+    background-image: url(../assets/Hidalgo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.playas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.playas-2 {
+    border: 2px solid white;
+    height: 450px;
+    width: 400px;
+    margin: 50px;
+    background-image: url(../assets/Playa\ Delfines\ Cancun.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .menu-principal {
-    padding-left: 60%;
-    font-size: x-large;
+        text-align: right;
+        font-size: x-large;
 }
 
 .redes {
@@ -92,4 +142,7 @@ a {
 
 .main-section {
     padding: 0px;
+    display: flex;
+    justify-content: space-around;
+
 }
