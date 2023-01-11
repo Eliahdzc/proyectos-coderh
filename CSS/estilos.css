@@ -2,6 +2,10 @@
     font-family: 'Raleway', sans-serif;
     margin: 0px 0px;
 }
+.bodyletra-pages {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 0px;
+}
 
 h1 {
    letter-spacing: 10px; text-align: center; font-weight: 3000px; font-size: 70px;
@@ -20,8 +24,8 @@ header {
 }
 
 .main-index {
-    background-image: url(https://www.fodors.com/wp-content/uploads/2021/05/UltimateMexicoCity__HERO_shutterstock_1058054480.jpg);
-   height: 1200px;
+    background: url(https://www.fodors.com/wp-content/uploads/2021/05/UltimateMexicoCity__HERO_shutterstock_1058054480.jpg);
+    height: 1200px;
     background-position: center;
     background-size: cover;
     padding: 25px 25px;
@@ -33,18 +37,24 @@ header {
     height: 100px;
     background-position: center;
     background-size: cover;
-    padding: 25px 25px;        
+    padding: 25px;  
+         
 }
 
 .bodycultura {
    background-color: rgb(230, 188, 188);
   }
+.cultura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .bodygastronomia {
     background-color: rgb(252, 248, 218);
 }
 
-.bodylugares {
+.lugares {
     background-color: rgb(186, 209, 223);
 }
 
@@ -55,7 +65,7 @@ header {
    
 }
 
-.zonas-2 {
+.zonas-img {
     border: 2px solid white;
     height: 450px;
     width: 400px;
@@ -72,7 +82,7 @@ header {
    
 }
 
-.pueblos-2 {
+.pueblos-img {
     border: 2px solid white;
     height: 450px;
     width: 400px;
@@ -89,7 +99,7 @@ header {
     
 }
 
-.playas-2 {
+.playas-img {
     border: 2px solid white;
     height: 450px;
     width: 400px;
@@ -99,19 +109,22 @@ header {
     background-size: cover;
 }
 .menu-principal {
-        text-align: right;
+        text-align: center;
         font-size: x-large;
 }
 
 .redes {
-    padding: 25px 25px;
-    padding-left: 67%;
-    font-size: x-large;
+    padding: 25px 25px 0px 25px;
+    text-align: center;
+    
+    
 }
 
 .navfooter {
-    text-align: right;
-    font-size: x-large;
+
+    text-align: center;
+    font-size: medium;
+
 }
 
 a {
@@ -141,8 +154,42 @@ a {
 }
 
 .main-section {
-    padding: 0px;
+    padding: 0px 0px 120px 0px;
     display: flex;
     justify-content: space-around;
 
+}
+.footer-logo {
+    display: inline;
+    width: 100px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+.hxindex {
+    font-weight:bolder;
+    color: whitesmoke; 
+    background: rgba(0, 0, 0, 0.5) ;
+    text-shadow: blue;
+    padding-bottom: 5px;
+}
+
+.imagencontacto {
+    border: 2px solid white;
+    height: 450px;
+    width: 400px;
+    margin: 50px;
+    background-image: url(../assets/mariachi.jpg);
+    background-position: center;
+    background-size: cover;
 }

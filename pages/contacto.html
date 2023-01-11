@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Contacto</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Krub:wght@200;500;700&family=Raleway:wght@100;400;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Belleza&family=Krub:wght@200;500;700&family=Raleway:wght@100;400;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
-<body class="bodylugares letrabody">
-  
+
+<body class="bodycontacto letrabody">
+
   <header>
-    
-   <div>
-     <h1 class="titulo-pagina">Estamos cerca de ti</h1>
+
+    <div>
+      <h1 class="titulo-pagina">Estamos cerca de ti</h1>
 
       <nav class="menu-principal">
         <ul>
@@ -28,53 +32,78 @@
         </ul>
       </nav>
 
-     <h2>Coloniales Playas Arqueológicos</h2>
-   
-   </div>
+      <h2>¿Disfrutaste tu viaje vitual?</h2>
+      <h3>Escribenos para mas información sobre México, también puedes tomar una clase personalizada.</h3>
+
+    </div>
 
   </header>
 
-<section class="main-section">
-    <h2>Queremos conocerte</h2>
-    <form>
-      <label for="nombre">Nombre</label>
+  <section class="main-section">
+    <div>
+      <h2>Queremos conocerte</h2>
+      <div class="imagencontacto"></div>
+    </div>
+    <form class="form">
+      <label for="nombre">Nombre</label><br><br>
       <input type="text" id="nombre" placeholder="Ingrese su nombre">
       <br><br>
-      <label for="">Apellido</label>
+      <label for="">Apellido</label><br><br>
       <input type="text" placeholder="Ingrese su apellido">
       <br><br>
-      <label for="">Correo Electrónico</label>
+      <label for="">Correo Electrónico</label><br><br>
       <input type="email" placeholder="Ingrese su E-Mail">
       <br><br>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Deja tu mensaje"></textarea>
+      <textarea name="Escribe tu mensaje" id="mensaje" cols="30" rows="10" placeholder="Deja tu mensaje"></textarea>
       <br><br>
       <input type="submit">
       <input type="reset">
     </form>
+    <form>
+      <label for="pregunta">¿Te gustaria tomar una clase personalizada?</label><br><br>
+      <input type="checkbox" id="siquiero" name="siquiero" value="si">
+      <label for="siquiero">Si</label><br>
+      <input type="checkbox" id="noquiero" name="noquiero" value="no">
+      <label for="noquiero">No</label><br><br>
+      <label for="pregunta">Tipo de clase que te gustaría tomar</label><br><br>
+      <input type="checkbox" id="opcion1" name="opcion1" value="baile">
+      <label for="opcion1">Baile</label>
+      <input type="checkbox" id="opcion2" name="opcion2" value="cocina">
+      <label for="opcion2">Cocina</label>
 
-</section>
+
+    </form>
+
+  </section>
 
   <footer class="footer">
-    
+
     <nav class="navfooter">
-        <a href="../index.html">Inicio</a>
-        <a href="lugares-magicos.html">Lugares Mágicos</a>
-        <a href="cultura.html">Cultura</a>
-        <a href="gastronomia.html">Gastronomia</a>
-        <a href="interactivo.html">Espacio Interactivo</a>
-        <a href="contacto.html">Contacto</a>
+      <a href="../index.html">Inicio</a>
+      <a href="lugares-magicos.html">Lugares Mágicos</a>
+      <a href="cultura.html">Cultura</a>
+      <a href="gastronomia.html">Gastronomia</a>
+      <a href="interactivo.html">Espacio Interactivo</a>
+      <a href="contacto.html">Contacto</a>
     </nav>
-      
+
     <div class="redes">
-      <a href="#">Facebook</a>
-      <a href="#">Instagram</a>
-      <a href="#">Tick Tock</a>
+
+      <a href="https://www.facebook.com/search/top?q=m%C3%A9xico%20desconocido" target="_blank">
+        <img class="footer-logo" src="../assets/Facebook-Logo.wine.svg" alt="logo-facebook">
+      </a>
+
+      <a href="https://www.instagram.com/mexicodesconocido/" target="_blank">
+        <img class="footer-logo" src="../assets/Instagram_logo.svg.png" alt="logoinstagram">
+      </a>
+
+      <a href="https://www.tiktok.com/@ihistoria.com?lang=es" target="_blank">
+        <img class="footer-logo" src="../assets/tiktok.svg" alt="logotiktok">
+      </a>
     </div>
 
-    <div>
-     
-    </div>
   </footer>
 
 </body>
+
 </html>
