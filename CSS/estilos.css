@@ -8,23 +8,25 @@
 }
 
 h1 {
-   letter-spacing: 10px; text-align: center; font-weight: 3000px; font-size: 70px;
-}
+   letter-spacing: 10px;
+   text-align: center;
+   font-weight: 3000px;
+   font-size: 70px;
+  }
 
 header {
     contain: size 50%;
-
 }
 
 .logo {
-    background-image: url("../assets/LogoFolklorisimo.gif");
+    background-image: url("../assets/logo-folklorisimo.gif");
     height: 450px;
     background-position: center;
     background-size: cover;
 }
 
 .main-index {
-    background: url(https://www.fodors.com/wp-content/uploads/2021/05/UltimateMexicoCity__HERO_shutterstock_1058054480.jpg);
+    background: url(https://media.gettyimages.com/id/711949691/es/foto/travel-pov.jpg?s=2048x2048&w=gi&k=20&c=HyKbXs4E0mb7Gau_I_WnkNvf0JPpbrjxtisSt6y4Vqo=);
     height: 1200px;
     background-position: center;
     background-size: cover;
@@ -33,7 +35,7 @@ header {
 }
 
 .footer  {
-    background-image: url("../assets/Footer.png");
+    background-image: url("../assets/img-footer.png");
     height: 380px;
     background-position: center;
     background-size: cover;
@@ -41,22 +43,36 @@ header {
          
 }
 
-.bodycultura {
-   background-color: rgb(230, 188, 188);
-  }
+/* Estilos paginas */
+
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo1-titulo {
+    background-image: url(../assets/img-suculenta-der.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 150px;
+}
+
+.logo2-titulo {
+    background-image: url(../assets/img-suculenta-izq.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 150px;
+}
+
 .cultura {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.bodygastronomia {
-    background-color: rgb(252, 248, 218);
-}
-
-.lugares {
-    background-color: rgb(186, 209, 223);
-}
 
 .zonas {
     display: flex;
@@ -70,7 +86,7 @@ header {
     height: 450px;
     width: 400px;
     margin: 50px;
-    background-image: url(../assets/Chichenitza.jpg);
+    background-image: url(../assets/chichenitza-1.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -87,7 +103,7 @@ header {
     height: 450px;
     width: 400px;
     margin: 50px;
-    background-image: url(../assets/Hidalgo.jpg);
+    background-image: url(../assets/img-hidalgo.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -104,7 +120,7 @@ header {
     height: 450px;
     width: 400px;
     margin: 50px;
-    background-image: url(../assets/Playa\ Delfines\ Cancun.jpg);
+    background-image: url(../assets/img-playa-delfines-cancun.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -131,11 +147,7 @@ a {
     margin: 25px;
 }
 
-.titulo-pagina {
-    background-image: url(../assets/cactus2.png);
-    background-position: center;
-    background-size: cover;
-}
+
 li a {
     margin: 20px;
 }
