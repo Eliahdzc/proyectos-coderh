@@ -1,3 +1,5 @@
+/* Estilos Generales */
+
 .letrabody {
     font-family: 'Raleway', sans-serif;
     margin: 0px 0px;
@@ -8,41 +10,141 @@
 }
 
 h1 {
-   letter-spacing: 10px;
-   text-align: center;
-   font-weight: 3000px;
-   font-size: 70px;
-  }
-
-header {
-    contain: size 50%;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: 4000px;
+    font-size: 100px;
+}
+.menu-principal {
+        text-align: center;
+        font-size: x-large;
 }
 
+.redes {
+    padding: 25px 25px 0px 25px;
+    text-align: center;
+    
+    
+}
+
+
+a {
+    margin: 25px;
+}
+
+
+li a {
+    margin: 20px;
+}
+
+a:hover {
+    text-decoration: underline #a74561 2px;
+}
+
+li {
+    display: inline-block; 
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+.main-section {
+    padding: 0px 0px 120px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* Estilos index */
+
+.header-section-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    
+}
 .logo {
-    background-image: url("../assets/logo-folklorisimo.gif");
-    height: 450px;
-    background-position: center;
-    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+    
 }
 
 .main-index {
-    background: url(https://media.gettyimages.com/id/711949691/es/foto/travel-pov.jpg?s=2048x2048&w=gi&k=20&c=HyKbXs4E0mb7Gau_I_WnkNvf0JPpbrjxtisSt6y4Vqo=);
+    background: url(https://osn.inba.gob.mx/images/palciofoto.jpeg);
     height: 1200px;
     background-position: center;
     background-size: cover;
     padding: 25px 25px;
     margin: 0px 0px;
+    display: flex;
 }
+.hxindex {
+    font-weight:bolder;
+    color: whitesmoke; 
+    background: rgba(0, 0, 0, 0.5) ;
+    text-shadow: blue;
+    padding-bottom: 5px;
+}
+
+/* Estilo Footer */
 
 .footer  {
-    background-image: url("../assets/img-footer.png");
-    height: 380px;
-    background-position: center;
-    background-size: cover;
-    padding: 25px;  
-         
+    height: 310px;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   padding-top: 15px;
 }
 
+.footer-menu-redes {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.footer-logo {
+    background-image: url(/assets/img-footer.png);
+    background-size: cover;
+    height: 300px;
+    width: 1200px;
+    margin-top: 25px;
+}
+
+.footer-link-images {
+    width: 100%;
+}
+
+.footer-link {
+    display: inline-block;
+    width: 100px;
+}
+
+.navfooter {
+    text-align: center;
+    font-size: large;
+
+}
 /* Estilos paginas */
 
 .header-section {
@@ -89,6 +191,7 @@ header {
     background-image: url(../assets/chichenitza-1.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
 }
 
 .pueblos {
@@ -106,6 +209,7 @@ header {
     background-image: url(../assets/img-hidalgo.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
 }
 
 .playas {
@@ -123,77 +227,7 @@ header {
     background-image: url(../assets/img-playa-delfines-cancun.jpg);
     background-position: center;
     background-size: cover;
-}
-.menu-principal {
-        text-align: center;
-        font-size: x-large;
-}
-
-.redes {
-    padding: 25px 25px 0px 25px;
-    text-align: center;
-    
-    
-}
-
-.navfooter {
-
-    text-align: center;
-    font-size: medium;
-
-}
-
-a {
-    margin: 25px;
-}
-
-
-li a {
-    margin: 20px;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-li {
-    display: inline-block; 
-}
-
-a {
-    text-decoration: none;
-    color: black; 
-}
-
-.main-section {
-    padding: 0px 0px 120px 0px;
     display: flex;
-    justify-content: space-around;
-
-}
-.footer-logo {
-    display: inline;
-    width: 100px;
-
-}
-
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-.hxindex {
-    font-weight:bolder;
-    color: whitesmoke; 
-    background: rgba(0, 0, 0, 0.5) ;
-    text-shadow: blue;
-    padding-bottom: 5px;
 }
 
 .imagencontacto {
