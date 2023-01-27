@@ -4,10 +4,6 @@
     font-family: 'Raleway', sans-serif;
     margin: 0px 0px;
 }
-/* .bodyletra-pages {
-    font-family: 'Raleway', sans-serif;
-    margin: 0px 0px;
-} */
 
 h1 {
     letter-spacing: 10px;
@@ -15,23 +11,20 @@ h1 {
     font-weight: 4000px;
     font-size: 100px;
 }
+
 .menu-principal {
-        text-align: center;
-        font-size: x-large;
+    text-align: center;
+    font-size: x-large;
 }
 
 .redes {
     padding: 25px 25px 0px 25px;
     text-align: center;
-    
-    
 }
-
 
 a {
     margin: 25px;
 }
-
 
 li a {
     margin: 20px;
@@ -42,14 +35,13 @@ a:hover {
 }
 
 li {
-    display: inline-block; 
+    display: inline-block;
 }
 
 a {
     text-decoration: none;
-    color: black; 
+    color: black;
 }
-
 
 h2 {
     text-align: center;
@@ -75,13 +67,11 @@ p {
     justify-content: center;
     align-items: center;
     height: 25%;
-    
 }
+
 .logo {
     height: 100%;
     width: 100%;
-    
-    
 }
 
 .main-index {
@@ -90,21 +80,21 @@ p {
     background-position: center;
     background-size: cover;
     padding: 25px 25px;
-   }
+}
+
 .hxindex {
     display: flex;
     flex-direction: column;
-    font-weight:bolder;
-    color: whitesmoke; 
-    background: rgba(0, 0, 0, 0.5) ;
+    font-weight: bolder;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.5);
     text-shadow: rgb(57, 57, 110);
     padding: 5px;
-    
 }
 
 /* Estilo Footer */
 
-.footer  {
+.footer {
     height: 310px;
     padding: 25px;
     align-items: center;
@@ -138,8 +128,8 @@ p {
 .navfooter {
     text-align: center;
     font-size: large;
-    
 }
+
 /* Estilos paginas */
 
 .header-section {
@@ -175,7 +165,6 @@ p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .main-section-contacto {
@@ -190,7 +179,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-        
+
 }
 
 .zonas-img {
@@ -208,7 +197,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
 .pueblos-img {
@@ -226,7 +214,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .playas-img {
@@ -258,28 +245,9 @@ p {
     background-size: cover;
 }
 
-/* ejemplo slide container */
+/* Vamos a añadir esto 👇 */
 
-.slider-container {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    overflow-x: scroll
-  
-    /* Vamos a añadir esto 👇 */
-    scroll-snap-type: x mandatory;
-  }
-  
-  .slider-container img {
-    flex: 0 0 100%;
-    width: 100%;
-    object-fit: cover;
-  
-    /* Vamos a añadir esto 👇 */
-    scroll-snap-align: center;
-  }
-
-  .menu-principalprueba {
+.menu-principalprueba {
     text-align: center;
     font-size: x-large;
 }
@@ -298,8 +266,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-   }
+}
 
 .div-lugares {
     display: flex;
@@ -312,87 +279,126 @@ p {
     display: flex;
     padding: 20px 100px 50px 100px;
     text-align: center;
-}
-
-@media (max-width: 900px)  {
-    .footer-logo { 
-        width: 100%;
-    }
-    h1 {
-        font-size: 40px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 16px;
-    }
-    .cultura-video {
-        width: 80%;
-    }
+    font-size: medium;
     
 }
 
-@media (max-width: 425px)  {
-    .footer-logo { 
+@media (max-width: 1024px) {
+    .footer-logo {
         width: 100%;
     }
+
     h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
+
     h2 {
         font-size: 20px;
     }
+
     p {
         font-size: 16px;
     }
+
+    .cultura-video {
+        width: 80%;
+    }
+
+    .menu-principal {
+        font-size: large;
+    }
+
+    .navfooter {
+        font-size: small;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-principal {
+        font-size: small;
+    }
+
+    .navfooter {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-logo {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
     .cultura-video {
         width: 320px;
     }
+
     .menu-principal ul {
         padding-inline-start: 0;
     }
+
     .logo1-titulo {
         height: 100px;
         width: 100px;
     }
+
     .logo2-titulo {
         height: 100px;
         width: 100px;
     }
+
     .menu-principal {
         font-size: 15px;
         text-align: justify;
         padding-inline-start: 0;
     }
+
     .main-index {
         height: 500px;
     }
+
     .navfooter {
         font-size: 11px;
         text-align: left;
     }
-    .footer-link{
+
+    .footer-link {
         width: 50px;
     }
+
     .redes {
         padding: 0;
     }
+
     .footer {
         padding: 0;
         margin: 0;
         height: 200px;
     }
+
     .zonas-img {
         margin: 0;
         height: 380px;
         width: 320px;
     }
+
     .pueblos-img {
         margin: 0;
         height: 380px;
         width: 320px;
     }
+
     .playas-img {
         margin: 0;
         height: 380px;
@@ -400,31 +406,42 @@ p {
         font-size: 12px;
         text-align: right;
     }
+
     .main-section {
         padding: 0px 0px 0px 0px;
         justify-content: center;
     }
+
     .cultura-video {
         display: none;
     }
+
     .cultura-video-small {
         display: block;
     }
+
     .imagencontacto {
         width: 320px;
         margin: 0;
         padding: 0;
     }
+
     .h2contacto {
         display: none;
     }
+
     .h3contacto {
         display: none;
     }
+
     .form {
         text-align: center;
     }
+
     .div-contacto {
         width: 320px;
+    }
+    .div-parrafo {
+        font-size: smaller;
     }
 }
