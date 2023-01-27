@@ -7,9 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link
     href="https://fonts.googleapis.com/css2?family=Belleza&family=Krub:wght@200;500;700&family=Raleway:wght@100;400;600&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
@@ -21,7 +24,7 @@
     <section class="header-section">
 
       <div class="logo1-titulo"></div>
-      <h1 class="titulo-pagina">Estamos cerca de ti</h1>
+      <h1 class="animate__animated animate__heartBeat" class="titulo-pagina">Estamos cerca de ti</h1>
       <div class="logo2-titulo"></div>
     </section>
 
@@ -39,53 +42,86 @@
       </nav>
 
       <h2 class="h2contacto">¿Disfrutaste tu viaje vitual?</h2>
-      <h3 class="h2contacto">Escribenos para mas información sobre México, también puedes tomar una clase personalizada.</h3>
+      <h3 class="h2contacto">Escribenos para mas información sobre México, también puedes tomar una clase personalizada.
+      </h3>
 
     </div>
 
   </header>
 
-  <section class="main-section">
+  <section class="main-section-contacto">
     <div class="div-contacto">
       <h2>Queremos conocerte</h2>
       <div class="imagencontacto"></div>
     </div>
-    <form class="form">
-      <label for="nombre">Nombre</label><br><br>
-      <input type="text" id="nombre" placeholder="Ingrese su nombre">
-      <br><br>
-      <label for="">Apellido</label><br><br>
-      <input type="text" placeholder="Ingrese su apellido">
-      <br><br>
-      <label for="pregunta">¿Te gustaria tomar una clase personalizada?</label>
-      <br><br>
-      <input type="checkbox" id="siquiero" name="siquiero" value="si">
-      <label for="siquiero">Si</label>
-      <input type="checkbox" id="noquiero" name="noquiero" value="no">
-      <label for="noquiero">No</label>
-      <br><br>
-      <label for="pregunta">Tipo de clase que te gustaría tomar</label>
-      <br><br>
-      <input type="checkbox" id="opcion1" name="opcion1" value="baile">
-      <label for="opcion1">Baile</label>
-      <input type="checkbox" id="opcion2" name="opcion2" value="cocina">
-      <label for="opcion2">Cocina</label>
-      <br><br><br>
-      <label for="">Correo Electrónico</label><br><br>
-      <input type="email" placeholder="Ingrese su E-Mail">
-      <br><br>
-      <textarea name="Escribe tu mensaje" id="mensaje" cols="30" rows="10" placeholder="Deja tu mensaje"></textarea>
-      <br><br>
-      <input type="submit">
-      <input type="reset">
-      <br><br><br>
-    </form>
-    
-    <div>
-    <form class="form">
-</div>
+
+
+    <form>
+
+      <div class="mb-3 mt-5">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input class="form-control" id="nombre">
+        <div id="nombre" class="form-text">Escribe tu(s) Nombre(s)</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="apellidos" class="form-label">Apellidos</label>
+        <input class="form-control" id="apellidos">
+        <div id="nombre" class="form-text">Escribe tus Apellidos</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Tus datos están protegidos.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="comentarios" class="form-label">Queremos conocer tu opinión</label>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Deja aquí tu comentario" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Tu opinión del sitio</label>
+      </div>
+
+      <div class="mb-3">
+        <label for="programarclase" class="form-label">¿Te gustaria tomar una clase personalizada?</label>
+      </div>
+      
+      <div class="form-check m-3">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="si">
+          Si
+        </label>
+      </div>
+      <div class="form-check m-3">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="No">
+          No
+        </label>
+      </div>
+
+      <div class="mb-3">
+        <label for="tipoclase" class="form-label">Tipo de clase que te gustaría tomar</label>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="programarclase">
+        <label class="form-check-label" for="Baile">Baile</label>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="programarclase">
+        <label class="form-check-label" for="Cocina">Cocina</label>
+      </div>
+
+      
+
+      <button type="submit" class="btn btn-primary">Enviar</button>
+      <button type="reset" class="btn btn-primary">Restablecer</button>
 
     </form>
+
+    
 
   </section>
 
@@ -126,7 +162,9 @@
 
   </footer>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
