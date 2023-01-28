@@ -283,6 +283,16 @@ p {
     
 }
 
+.img-bots {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    }
+
+.p-bost {
+    font-size: 18px;
+}
+
 @media (max-width: 1024px) {
     .footer-logo {
         width: 100%;
@@ -320,6 +330,9 @@ p {
 
     .navfooter {
         display: none;
+    }
+    .p-bost {
+        font-size:15px;
     }
 }
 
@@ -443,5 +456,8 @@ p {
     }
     .div-parrafo {
         font-size: smaller;
+    }
+    .p-bost {
+        font-size: 12px;
     }
 }
